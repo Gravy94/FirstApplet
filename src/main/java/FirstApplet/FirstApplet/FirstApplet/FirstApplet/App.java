@@ -15,7 +15,7 @@ public class App extends JApplet{
 
 	public void init(){
 		
-		getContentPane().setLayout(new GridLayout(2,300));
+		getContentPane().setLayout(new FlowLayout());
 		
 		final JButton b2 = new JButton("click me2");
 		final JButton b = new JButton("click me");
@@ -44,10 +44,18 @@ public class App extends JApplet{
 			}
 		});
 		
+		b2.addActionListener(new ActionListener() {
+			
+			public void actionPerformed(ActionEvent e) {
+				// TODO Auto-generated method stub
+				b2.setText("Clicked!!");
+				
+			}
+		});
 		getContentPane().add(b,0);
 		getContentPane().add(b2,1);
-		getContentPane().add(new JLabel("prova"),2);
-		getContentPane().add(new JLabel("prova2"),3);
+		getContentPane().add(new JLabel("TextBox1"),2);
+		getContentPane().add(new JLabel("TextBox2"),3);
 		
 
 	}
