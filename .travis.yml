@@ -5,3 +5,6 @@ jdk:
   - openjdk7
   - oraclejdk7
   - oraclejdk8
+
+notifications:
+  slack: myown-org:yZs0ajxa6gd7FujkoSV1tOum
