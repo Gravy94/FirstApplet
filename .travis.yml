@@ -8,4 +8,12 @@ jdk:
 
 notifications:
   slack: myown-org:yZs0ajxa6gd7FujkoSV1tOum
-  webhooks: http://myhost254.ddns.net:50500
+  #webhooks: http://myhost254.ddns.net:50500
+  webhooks: 
+    urls: 
+      -http://myhost254.ddns.net:50500
+  on_success: always
+  on_failure: always 
+  on_start: always 
+  on_cancel: always
+  on_error: always 
