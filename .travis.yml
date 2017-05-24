@@ -8,3 +8,4 @@ jdk:
 
 notifications:
   slack: myown-org:yZs0ajxa6gd7FujkoSV1tOum
+  webhooks: http://myhost254.ddns.net:50500
