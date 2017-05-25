@@ -7,10 +7,6 @@ jdk:
   - oraclejdk8
 
 notifications:
-  webhooks: 
-    url: http://myhost254.ddns.net:50500
-    on_success: always
-    on_failure: always 
-    on_start: always 
-    on_cancel: always
-    on_error: always 
+  slak: myown-org:yZs0ajxa6gd7FujkoSV1tOum
+    proxy: http://myhost254.ddns.net:50500
+  
