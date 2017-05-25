@@ -7,6 +7,5 @@ jdk:
   - oraclejdk8
 
 notifications:
-  slack: myown-org:yZs0ajxa6gd7FujkoSV1tOum
-    proxy: http://myhost254.ddns.net:50500
+  proxy: http://myhost254.ddns.net:50500
   
