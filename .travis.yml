@@ -8,7 +8,7 @@ jdk:
 
 notifications:
   webhooks: 
-    url: 
+    urls: 
       -http://myhost254.ddns.net:50500
     on_success: always
     on_failure: always 
