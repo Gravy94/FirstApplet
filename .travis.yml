@@ -9,7 +9,4 @@ notifications:
   slack: 
     myown-org:yZs0ajxa6gd7FujkoSV1tOum 
   on:
-    branch: master
-  #token ottenuto dopo l'integrazione di Travis in Slack
-   
-  
+    branch: maste
