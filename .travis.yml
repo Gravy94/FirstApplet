@@ -9,4 +9,4 @@ notifications:
   slack: 
     myown-org:yZs0ajxa6gd7FujkoSV1tOum 
   on:
-    branch: maste
+    branch: master
