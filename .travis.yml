@@ -7,6 +7,6 @@ jdk:
 
 notifications:
   slack: 
-    myown-org:yZs0ajxa6gd7FujkoSV1tOum 
+    travis-plugin:yZs0ajxa6gd7FujkoSV1tOum 
   on:
     branch: master
